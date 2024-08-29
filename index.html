@@ -1,106 +1,98 @@
 <!DOCTYPE html>
-<html5 lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tshering Phuntsho - Software Engeering student</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelden Phuntsho Dorji - Software Engineering Student</title>
 
-        <!--unicons-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <!-- Favicon -->
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-        <!--css-->
-        <link href="assets/css/styles.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet"/>
 
-        <!--swiper css-->
-        <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css" rel="stylesheet" />
-    </head>
-    <body> 
-        <!--header-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Tshering_Phuntsho</a>
+    <!-- Swiper CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css" rel="stylesheet" />
+</head>
+<body> 
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">DRAC</a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>About Me
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-info-alt nav__icon"></i>Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-book-alt nav__icon"></i>Portfolio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-phone nav__icon"></i>Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About Me
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-book-alt nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-phone nav__icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
                 </div>
+            </div>
+        </nav>
+    </header>
 
-                <div class="nav__btns">
-                    <!--Theme change button-->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__img">
+                        <!-- Portfolio Image with New Class -->
+                        <img class="home__portfolio-img" src="assets/img/myImage.png" alt="Portfolio Image"/>
                     </div>
-                </div>
-            </nav>
-        </header>
-
-        <!--main-->
-        <main class="main">
-            <!--Home-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-
-                                    <image class="home__blob-img" x="-50" y="10" xlink:href="assets/img/myImage.png"/>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Hello, I'm Tshering Phuntsho</h1>
-                            <h2><span class="home__subtitle"></span></h2>
-                            <a download="" href="assets/pdf/cv.pdf" class="button button--flex">  
-                                My CV<i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-angle-double-down home__scroll-angle"></i>
-                            <span class="home__scroll-name">Scroll down</span>
+                    <div class="home__data">
+                        <h1 class="home__title">Hello, I'm Kelden Phuntsho Dorji</h1>
+                        <h2><span class="home__subtitle"></span></h2>
+                        <a download="" href="assets/pdf/cv.pdf" class="button button--flex">  
+                            My CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-angle-double-down home__scroll-angle"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
 
             <!--Aboutme-->
             <section class="about section" id="about">
@@ -109,16 +101,16 @@
                 <div class="about__container container grid">
                     <img src="assets/img/about_img.jpg" alt="second image" class="about__img">
                     <div class="about__data">
-                        <p class="about__description">I'm currently pursuing Bachelor degree in B.E in Software Engineering at College of Science and Technology(CST).</p>
+                        <p class="about__description">I am currently pursuing a Bachelor of Engineering in Software Engineering at the College of Science and Technology (CST).</p>
 
-                        <ul class="about__description">My strength :
-                            <li>Have patience</li>
-                            <li>Perform best as a team</li>
-                            <li>Quickly adapt to new working environment</li>
-                            <li>Communication</li>
+                        <ul class="about__description">Strength :
+                            <li>Patience</li>
+                            <li>Team Player</li>
+                            <li>Quick adaptability to new working environments</li>
+                            <li>Effective communication skills</li>
                         </ul>
 
-                        <p class="about__description">My weakness : Perfectionism - I often spend more time on a particular task until I get perfect result</p>
+                        <p class="about__description">My weakness : I tend to strive for perfection, often spending more time than necessary on tasks to ensure they are done perfectly.</p>
                     </div>
                 </div>
             </section>
@@ -126,7 +118,7 @@
             <!--Skills-->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
+                <span class="section__subtitle">Technical Expertise</span>
 
                 <div class="skills__container container grid">
                     <div>
@@ -178,9 +170,22 @@
 
                                 <div class="skills__data">
                                     <div class="skills__title">
-                                        <h3 class="skills__name">iconScout</h3>
+                                        <h3 class="skills__name">Zustand</h3>
                                     </div>
                                 </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Render</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Netlify</h3>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
@@ -196,7 +201,25 @@
                             <div class="skills__list grid">
                                 <div class="skills__data">
                                     <div class="skills__title">
-                                        <h3 class="skills__name">Node Js</h3>
+                                        <h3 class="skills__name">Next.js</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Node.js</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Hono</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Express.js</h3>
                                     </div>
                                 </div>
 
@@ -227,13 +250,24 @@
                             <div class="skills__list grid">
                                 <div class="skills__data">
                                     <div class="skills__title">
-                                        <h3 class="skills__name">Figma</h3>
+                                        <h3 class="skills__name">Github</h3>
                                     </div>
                                 </div>
 
                                 <div class="skills__data">
                                     <div class="skills__title">
-                                        <h3 class="skills__name">Github</h3>
+                                        <h3 class="skills__name">Figma</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Chirpy</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">HackTheBox</h3>
                                     </div>
                                 </div>
 
@@ -275,6 +309,11 @@
                             <div class="skills__list grid">
                                 <div class="skills__data">
                                     <div class="skills__title">
+                                        <h3 class="skills__name">PostgreSQL</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
                                         <h3 class="skills__name">MongoDB</h3>
                                     </div>
                                 </div>
@@ -283,11 +322,7 @@
                                         <h3 class="skills__name">pgAdmin</h3>
                                     </div>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">PostgreSQL</h3>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <!--Skills 6-->
@@ -302,6 +337,16 @@
                             <div class="skills__list grid">
                                 <div class="skills__data">
                                     <div class="skills__title">
+                                        <h3 class="skills__name">Metasploit</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">PortSwigger</h3>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
                                         <h3 class="skills__name">Linux</h3>
                                     </div>
                                 </div>
@@ -313,11 +358,6 @@
                                 <div class="skills__data">
                                     <div class="skills__title">
                                         <h3 class="skills__name">Basic pentesting</h3>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__title">
-                                        <h3 class="skills__name">Metasploit</h3>
                                     </div>
                                 </div>
                             </div>
@@ -334,24 +374,14 @@
                 <div class="portfolio__container container swiper mySwiper">
                     <div class="swiper-wrapper">
                         <!--portfolio 1-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/python.png" alt="automation" class="portfolio__img">
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Automation</h3>
-                                <p class="portfolio__description">Using python programming language, I Automated the process of filling google form for outstation leave.</p>
-                                <a href="https://github.com/tsheringphuntsho18/PythonAutomation/blob/main/SWE_Tshering_Phuntsho_02230310.py" class="button button--flex button--small portfolio__button">
-                                    Click here for code
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+
                         <!--portfolio 2-->
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/pygame.png" alt="automation" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Pygame</h3>
-                                <p class="portfolio__description">I developed a simple hangman game using python library(pygame)</p>
-                                <a href="https://github.com/tsheringphuntsho18/CAP2_Pygame" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">AstroPythonInvaders</h3>
+                                <p class="portfolio__description">It is a Python-based game set in space, featuring a shooting gameplay theme.</p>
+                                <a href="https://github.com/KeldenPDorji/AstroPythonInvaders" class="button button--flex button--small portfolio__button">
                                     Click here for code
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -362,8 +392,8 @@
                             <img src="assets/img/pokedex.png" alt="automation" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Pokedex</h3>
-                                <p class="portfolio__description">This pokedex is my college assignment developed with react, shadcn and with some others technologies.</p>
-                                <a href="https://github.com/tsheringphuntsho18/02230310_WEB101_PA2" class="button button--flex button--small portfolio__button">
+                                <p class="portfolio__description">This project is a client-side Pokedex application developed with React.</p>
+                                <a href="https://github.com/KeldenPDorji/02230285_WEB101_PA2" class="button button--flex button--small portfolio__button">
                                     Click here for code
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -374,8 +404,8 @@
                             <img src="assets/img/postman.png" alt="restapi" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">RestfulAPI</h3>
-                                <p class="portfolio__description">This is the backend project where i implemented the CRUD operations for the server.</p>
-                                <a href="https://github.com/tsheringphuntsho18/02230310_WEB102_PA1" class="button button--flex button--small portfolio__button">
+                                <p class="portfolio__description">This is a basic RESTful API created with Node.js, showcasing CRUD operations for products and user registration/authentication.</p>
+                                <a href="https://github.com/KeldenPDorji/02230285_WEB102_PA1" class="button button--flex button--small portfolio__button">
                                     Click here for code
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -386,8 +416,8 @@
                             <img src="assets/img/leetcode.png" alt="automation" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Leetcode</h3>
-                                <p class="portfolio__description">I have solved more than 40 leetcode problems as of now.</p>
-                                <a href="https://leetcode.com/u/tsheringphuntsho18/" class="button button--flex button--small portfolio__button">
+                                <p class="portfolio__description">I have solved numerous problems on LeetCode so far.</p>
+                                <a href="https://leetcode.com/u/KeldenPDorji/" class="button button--flex button--small portfolio__button">
                                     Leetcode profile
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -395,11 +425,11 @@
                         </div>
                         <!--portfolio 6-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/hackerrank.png" alt="automation" class="portfolio__img">
+                            <img src="assets/img/TryHackMe.png" alt="automation" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">HackerRank</h3>
-                                <p class="portfolio__description">Here I level up my coding skills</p>
-                                <a href="https://www.hackerrank.com/profile/02230310_cst" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">tryhackme</h3>
+                                <p class="portfolio__description">I continually enhance my skills on TryHackMe.</p>
+                                <a href="https://tryhackme.com/p/7Keldenpdrac" class="button button--flex button--small portfolio__button">
                                     HackerRank profile
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -410,8 +440,8 @@
                             <img src="assets/img/chirpy.png" alt="automation" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Chirpy</h3>
-                                <p class="portfolio__description">I have written intresting journal and post on an online platform called chirpy. Whatever I have learned, i used to write it in chirpy. </p>
-                                <a href="https://tsheringphuntsho18.github.io/" class="button button--flex button--small portfolio__button">
+                                <p class="portfolio__description">I wrote reports on Databases and Cybersecurity based on my research and learning.</p>
+                                <a href="https://keldenpdorji.github.io/" class="button button--flex button--small portfolio__button">
                                     Read more
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -442,34 +472,33 @@
                             <i class="uil uil-phone contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Call me</h3>
-                                <span class="contact__subtitle">+975 77277687</span>
+                                <span class="contact__subtitle">+975 77710815</span>
                             </div>
                         </div>
                         <div class="contact__information">
                             <i class="uil uil-envelope contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">02230310.cst@rub.edu.bt</span>
+                                <span class="contact__subtitle">02230285.cst@rub.edu.bt</span>
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact__form grid" id="contact-form">
+                    <form class="contact__form grid" id="contact-form">
                         <div class="contact__group">
-                            <input type="text" name="user_name" required placeholder="Enter Your Name" class="contact__input">
-                            <input type="email" name="user_email" required placeholder="Enter Your Email" class="contact__input">
+                            <input type="text" name="from_name" required placeholder="Enter Your Name" class="contact__input">
+                            <input type="email" name="from_email" required placeholder="Enter Your Email" class="contact__input">
                         </div>
-
-                        <textarea name="user_message" required placeholder="Enter Your Message" class="contact__input"></textarea>
-
+            
+                        <textarea name="message" required placeholder="Enter Your Message" class="contact__input"></textarea>
+            
                         <p class="contact__message" id="contact-message"></p>
-
+            
                         <button type="submit" class="button contact__button">
                             Send Message
                         </button>
                     </form>
                 </div>
-            </section>
-        </main>
+            </section>            
 
         <!--footer-->
         <footer class="footer">
@@ -477,7 +506,7 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Software Engineer</h1>
-                        <span class="footer__subtitle">"Engineers create the world that has never been"</span>
+                        <span class="footer__subtitle">"Software is a great combination between artistry and engineering." — Bill Gates</span>
                     </div>
                     <ul class="footer__links">
                         <li>
@@ -490,20 +519,20 @@
                         </li>
                     </ul>
                     <div class="footer__socials">
-                        <a href="https://www.facebook.com/piluk20" target="_blank" class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=100094053420203" target="_blank" class="footer__social">
                             <i class="uil uil-facebook-f"></i>
                         </a>
-                        <a href="https://www.instagram.com/phuntshok_18/" target="_blank" class="footer__social">
+                        <a href="https://www.instagram.com/7keldenwuzhere/" target="_blank" class="footer__social">
                             <i class="uil uil-instagram"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/tshering-phuntsho-371231291/" target="_blank" class="footer__social">
+                        <a href="https://www.linkedin.com/in/kelden-phuntsho-dorji-b8a8a5298/" target="_blank" class="footer__social">
                             <i class="uil uil-linkedin"></i>
                         </a>
-                        <a href="https://github.com/tsheringphuntsho18" target="_blank" class="footer__social">
+                        <a href="https://github.com/KeldenPDorji" target="_blank" class="footer__social">
                             <i class="uil uil-github"></i>
                         </a>
                 </div>
-                <p class="footer__copy">&#169; 2024 Tshering Phuntsho. All right reserved</p>
+                <p class="footer__copy">&#169; 2024 Kelden Phuntsho Dorji. All rights reserved</p>
             </div>
         </footer>
 
@@ -524,4 +553,5 @@
         <!--main js-->
         <script src="assets/js/main.js"></script>
     </body>
-</html5>
+
+</html>
